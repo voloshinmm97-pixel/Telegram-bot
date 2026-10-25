@@ -1,0 +1,30 @@
+# Secrets — never commit
+.env
+
+# Runtime state (per-deployment, contains real user IDs)
+approved.json
+usage.json
+stats.json
+rejected.json
+bot.log
+
+# Generated output
+output/
+
+# Backups and OS junk
+*.bak
+.DS_Store
+__pycache__/
+*.pyc
+
+# Virtualenv
+venv/
+.venv/
+
+# Backups of any shape
+*.bak
+*.bak-*
+bot.py.bak*
+
+# More runtime state
+limit.json
